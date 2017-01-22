@@ -2,7 +2,7 @@ FROM ruby:2.4
 
 MAINTAINER thinkbot@outlook.de
 
-ENV VERSION=1.2.2
+ENV VERSION=1.2.3
 
 RUN gem install github-copywriter --version ${VERSION} --no-format-exec
 
